@@ -39,7 +39,7 @@ public class WiFiDiagnosis {
 				System.out.println("Now are you able to connect to the internet?(yes or no)");
 				String str4 = scan.nextLine();
 				if(str4.equals(str1)) {
-					System.out.println("Fifth step: contact your ISP");
+					System.out.println("Fourth step: contact your ISP");
 					System.out.println("Make sure your ISP is hooked up to your router");
 				}else {
 					System.out.println("Checking the cables seemed to work");
